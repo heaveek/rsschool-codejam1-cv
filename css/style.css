@@ -16,6 +16,15 @@ p, ul {
     margin-bottom: 1em;
 }
 
+a:hover {
+    color: #d01d1d;
+    transition: all 0.4s ease-in-out;
+}
+
+img {
+    filter: grayscale(0.3);
+}
+
 h1 {
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     font-size: 2.5em;
