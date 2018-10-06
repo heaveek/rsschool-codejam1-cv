@@ -52,6 +52,10 @@ header {
     padding: 20px 50px;
 }
 
+header div:nth-child(2) {
+    text-align: center;
+}
+
 main {
     width: 100%;
     height: auto;
@@ -74,5 +78,19 @@ main {
 footer {
     width: 100%;
     height: 100px;
-    background-color: aqua;
+    border-top: 1px solid black;
+}
+
+header .fab, .fas {
+    margin-right: 7px;
+}
+
+.soc-buttons {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.soc-buttons i {    
+    font-size: 2em;
+    margin-right: 25px;
 }
