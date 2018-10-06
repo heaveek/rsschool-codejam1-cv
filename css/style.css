@@ -102,4 +102,9 @@ header .fab, .fas {
 .soc-buttons i {    
     font-size: 2em;
     margin-right: 25px;
+    transition: all 0.4s ease-in-out;
+}
+
+.soc-buttons i:hover {
+    transform: rotate(360deg);
 }
